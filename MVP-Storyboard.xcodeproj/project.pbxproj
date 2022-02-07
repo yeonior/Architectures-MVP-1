@@ -19,6 +19,7 @@
 		A2917DED27B16C04005393F2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DEC27B16C04005393F2 /* Person.swift */; };
 		A2917DEF27B16C53005393F2 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DEE27B16C53005393F2 /* MainPresenter.swift */; };
 		A2917DF627B17546005393F2 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2917DF527B17546005393F2 /* MainView.xib */; };
+		A2917DF827B1773D005393F2 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DF727B1773D005393F2 /* ModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A2917DEC27B16C04005393F2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		A2917DEE27B16C53005393F2 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		A2917DF527B17546005393F2 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		A2917DF727B1773D005393F2 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +109,7 @@
 			children = (
 				A2917DBC27B1679B005393F2 /* AppDelegate.swift */,
 				A2917DBE27B1679B005393F2 /* SceneDelegate.swift */,
-				A2917DF027B17463005393F2 /* MainModule */,
+				A2917DFB27B1835B005393F2 /* Modules */,
 				A2917DC227B1679B005393F2 /* Main.storyboard */,
 				A2917DC527B1679B005393F2 /* Assets.xcassets */,
 				A2917DC727B1679B005393F2 /* LaunchScreen.storyboard */,
@@ -166,6 +168,15 @@
 				A2917DEE27B16C53005393F2 /* MainPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A2917DFB27B1835B005393F2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A2917DF727B1773D005393F2 /* ModuleBuilder.swift */,
+				A2917DF027B17463005393F2 /* MainModule */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +316,7 @@
 				A2917DBD27B1679B005393F2 /* AppDelegate.swift in Sources */,
 				A2917DED27B16C04005393F2 /* Person.swift in Sources */,
 				A2917DBF27B1679B005393F2 /* SceneDelegate.swift in Sources */,
+				A2917DF827B1773D005393F2 /* ModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

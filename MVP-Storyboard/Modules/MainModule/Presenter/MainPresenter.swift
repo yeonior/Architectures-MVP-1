@@ -12,18 +12,19 @@ protocol MainViewProtocol: AnyObject {
 }
 
 protocol MainPresenterProtocol: AnyObject {
-    init(view: MainViewProtocol, person: Person)
+    init(person: Person, view: MainViewProtocol)
     func showGreeting()
 }
 
 class MainPresenter: MainPresenterProtocol {
     
-    let view: MainViewProtocol
+    // presenter includes model and view
     let person: Person
+    let view: MainViewProtocol
     
-    required init(view: MainViewProtocol, person: Person) {
-        self.view = view
+    required init(person: Person, view: MainViewProtocol) {
         self.person = person
+        self.view = view
     }
     
     func showGreeting() {
