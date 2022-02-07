@@ -18,6 +18,7 @@
 		A2917DE027B1679C005393F2 /* MVP_StoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DDF27B1679C005393F2 /* MVP_StoryboardUITestsLaunchTests.swift */; };
 		A2917DED27B16C04005393F2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DEC27B16C04005393F2 /* Person.swift */; };
 		A2917DEF27B16C53005393F2 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DEE27B16C53005393F2 /* MainPresenter.swift */; };
+		A2917DF627B17546005393F2 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2917DF527B17546005393F2 /* MainView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A2917DDF27B1679C005393F2 /* MVP_StoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_StoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A2917DEC27B16C04005393F2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		A2917DEE27B16C53005393F2 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		A2917DF527B17546005393F2 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +107,7 @@
 			children = (
 				A2917DBC27B1679B005393F2 /* AppDelegate.swift */,
 				A2917DBE27B1679B005393F2 /* SceneDelegate.swift */,
-				A2917DEC27B16C04005393F2 /* Person.swift */,
-				A2917DEE27B16C53005393F2 /* MainPresenter.swift */,
-				A2917DC027B1679B005393F2 /* MainViewController.swift */,
+				A2917DF027B17463005393F2 /* MainModule */,
 				A2917DC227B1679B005393F2 /* Main.storyboard */,
 				A2917DC527B1679B005393F2 /* Assets.xcassets */,
 				A2917DC727B1679B005393F2 /* LaunchScreen.storyboard */,
@@ -131,6 +131,41 @@
 				A2917DDF27B1679C005393F2 /* MVP_StoryboardUITestsLaunchTests.swift */,
 			);
 			path = "MVP-StoryboardUITests";
+			sourceTree = "<group>";
+		};
+		A2917DF027B17463005393F2 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				A2917DF127B17486005393F2 /* Model */,
+				A2917DF327B1749C005393F2 /* View */,
+				A2917DF427B174A5005393F2 /* Presenter */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		A2917DF127B17486005393F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2917DEC27B16C04005393F2 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2917DF327B1749C005393F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2917DC027B1679B005393F2 /* MainViewController.swift */,
+				A2917DF527B17546005393F2 /* MainView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2917DF427B174A5005393F2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A2917DEE27B16C53005393F2 /* MainPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2917DC927B1679B005393F2 /* LaunchScreen.storyboard in Resources */,
+				A2917DF627B17546005393F2 /* MainView.xib in Resources */,
 				A2917DC627B1679B005393F2 /* Assets.xcassets in Resources */,
 				A2917DC427B1679B005393F2 /* Main.storyboard in Resources */,
 			);
