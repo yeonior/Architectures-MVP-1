@@ -20,7 +20,7 @@ class MainPresenter: MainPresenterProtocol {
     
     // presenter includes model and view
     let person: Person
-    let view: MainViewProtocol
+    weak var view: MainViewProtocol?
     
     required init(person: Person, view: MainViewProtocol) {
         self.person = person
@@ -29,6 +29,6 @@ class MainPresenter: MainPresenterProtocol {
     
     func showGreeting() {
         let greeting = person.firstName + " " + person.secondName
-        view.setGreeting(greeting: greeting)
+        view?.setGreeting(greeting: greeting)
     }
 }
