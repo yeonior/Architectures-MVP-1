@@ -1,12 +1,12 @@
 //
 //  MainPresenterTest.swift
-//  MVP-StoryboardTests
+//  Architecture-MVP
 //
 //  Created by Ruslan on 08.02.2022.
 //
 
 import XCTest
-@testable import MVP_Storyboard
+@testable import Architecture_MVP
 
 class MockView: MainViewProtocol {
     var titleTest: String?

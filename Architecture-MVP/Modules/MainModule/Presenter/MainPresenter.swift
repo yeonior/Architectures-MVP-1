@@ -1,6 +1,6 @@
 //
 //  MainPresenter.swift
-//  MVP-Storyboard
+//  Architecture-MVP
 //
 //  Created by Ruslan on 07.02.2022.
 //
