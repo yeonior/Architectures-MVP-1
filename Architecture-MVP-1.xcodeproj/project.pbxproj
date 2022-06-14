@@ -13,9 +13,9 @@
 		A2917DC427B1679B005393F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2917DC227B1679B005393F2 /* Main.storyboard */; };
 		A2917DC627B1679B005393F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2917DC527B1679B005393F2 /* Assets.xcassets */; };
 		A2917DC927B1679B005393F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2917DC727B1679B005393F2 /* LaunchScreen.storyboard */; };
-		A2917DD427B1679C005393F2 /* Architecture_MVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DD327B1679C005393F2 /* Architecture_MVPTests.swift */; };
-		A2917DDE27B1679C005393F2 /* Architecture_MVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DDD27B1679C005393F2 /* Architecture_MVPUITests.swift */; };
-		A2917DE027B1679C005393F2 /* Architecture_MVPTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DDF27B1679C005393F2 /* Architecture_MVPTestsLaunchTests.swift */; };
+		A2917DD427B1679C005393F2 /* Architecture_MVP_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DD327B1679C005393F2 /* Architecture_MVP_1Tests.swift */; };
+		A2917DDE27B1679C005393F2 /* Architecture_MVP_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DDD27B1679C005393F2 /* Architecture_MVP_1UITests.swift */; };
+		A2917DE027B1679C005393F2 /* Architecture_MVP_1TestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DDF27B1679C005393F2 /* Architecture_MVP_1TestsLaunchTests.swift */; };
 		A2917DED27B16C04005393F2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DEC27B16C04005393F2 /* Person.swift */; };
 		A2917DEF27B16C53005393F2 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2917DEE27B16C53005393F2 /* MainPresenter.swift */; };
 		A2917DF627B17546005393F2 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2917DF527B17546005393F2 /* MainView.xib */; };
@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A2917DB927B1679B005393F2 /* Architecture-MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture-MVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2917DB927B1679B005393F2 /* Architecture-MVP-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture-MVP-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2917DBC27B1679B005393F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2917DBE27B1679B005393F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2917DC027B1679B005393F2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -49,11 +49,11 @@
 		A2917DC527B1679B005393F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2917DC827B1679B005393F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2917DCA27B1679B005393F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2917DCF27B1679C005393F2 /* Architecture-MVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture-MVPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2917DD327B1679C005393F2 /* Architecture_MVPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_MVPTests.swift; sourceTree = "<group>"; };
-		A2917DD927B1679C005393F2 /* Architecture-MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture-MVPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2917DDD27B1679C005393F2 /* Architecture_MVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_MVPUITests.swift; sourceTree = "<group>"; };
-		A2917DDF27B1679C005393F2 /* Architecture_MVPTestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_MVPTestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2917DCF27B1679C005393F2 /* Architecture-MVP-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture-MVP-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2917DD327B1679C005393F2 /* Architecture_MVP_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_MVP_1Tests.swift; sourceTree = "<group>"; };
+		A2917DD927B1679C005393F2 /* Architecture-MVP-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture-MVP-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2917DDD27B1679C005393F2 /* Architecture_MVP_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_MVP_1UITests.swift; sourceTree = "<group>"; };
+		A2917DDF27B1679C005393F2 /* Architecture_MVP_1TestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_MVP_1TestsLaunchTests.swift; sourceTree = "<group>"; };
 		A2917DEC27B16C04005393F2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		A2917DEE27B16C53005393F2 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		A2917DF527B17546005393F2 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		A2917DB027B1679B005393F2 = {
 			isa = PBXGroup;
 			children = (
-				A2917DBB27B1679B005393F2 /* Architecture-MVP */,
-				A2917DD227B1679C005393F2 /* Architecture-MVPTests */,
-				A2917DDC27B1679C005393F2 /* Architecture-MVPUITests */,
+				A2917DBB27B1679B005393F2 /* Architecture-MVP-1 */,
+				A2917DD227B1679C005393F2 /* Architecture-MVP-1Tests */,
+				A2917DDC27B1679C005393F2 /* Architecture-MVP-1UITests */,
 				A2917DBA27B1679B005393F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,14 +99,14 @@
 		A2917DBA27B1679B005393F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2917DB927B1679B005393F2 /* Architecture-MVP.app */,
-				A2917DCF27B1679C005393F2 /* Architecture-MVPTests.xctest */,
-				A2917DD927B1679C005393F2 /* Architecture-MVPUITests.xctest */,
+				A2917DB927B1679B005393F2 /* Architecture-MVP-1.app */,
+				A2917DCF27B1679C005393F2 /* Architecture-MVP-1Tests.xctest */,
+				A2917DD927B1679C005393F2 /* Architecture-MVP-1UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2917DBB27B1679B005393F2 /* Architecture-MVP */ = {
+		A2917DBB27B1679B005393F2 /* Architecture-MVP-1 */ = {
 			isa = PBXGroup;
 			children = (
 				A2917DBC27B1679B005393F2 /* AppDelegate.swift */,
@@ -117,25 +117,25 @@
 				A2917DC727B1679B005393F2 /* LaunchScreen.storyboard */,
 				A2917DCA27B1679B005393F2 /* Info.plist */,
 			);
-			path = "Architecture-MVP";
+			path = "Architecture-MVP-1";
 			sourceTree = "<group>";
 		};
-		A2917DD227B1679C005393F2 /* Architecture-MVPTests */ = {
+		A2917DD227B1679C005393F2 /* Architecture-MVP-1Tests */ = {
 			isa = PBXGroup;
 			children = (
 				A295C5C927B27FEC0060C1A4 /* MainModuleTests */,
-				A2917DD327B1679C005393F2 /* Architecture_MVPTests.swift */,
+				A2917DD327B1679C005393F2 /* Architecture_MVP_1Tests.swift */,
 			);
-			path = "Architecture-MVPTests";
+			path = "Architecture-MVP-1Tests";
 			sourceTree = "<group>";
 		};
-		A2917DDC27B1679C005393F2 /* Architecture-MVPUITests */ = {
+		A2917DDC27B1679C005393F2 /* Architecture-MVP-1UITests */ = {
 			isa = PBXGroup;
 			children = (
-				A2917DDD27B1679C005393F2 /* Architecture_MVPUITests.swift */,
-				A2917DDF27B1679C005393F2 /* Architecture_MVPTestsLaunchTests.swift */,
+				A2917DDD27B1679C005393F2 /* Architecture_MVP_1UITests.swift */,
+				A2917DDF27B1679C005393F2 /* Architecture_MVP_1TestsLaunchTests.swift */,
 			);
-			path = "Architecture-MVPUITests";
+			path = "Architecture-MVP-1UITests";
 			sourceTree = "<group>";
 		};
 		A2917DF027B17463005393F2 /* MainModule */ = {
@@ -193,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2917DB827B1679B005393F2 /* Architecture-MVP */ = {
+		A2917DB827B1679B005393F2 /* Architecture-MVP-1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2917DE327B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVP" */;
+			buildConfigurationList = A2917DE327B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVP-1" */;
 			buildPhases = (
 				A2917DB527B1679B005393F2 /* Sources */,
 				A2917DB627B1679B005393F2 /* Frameworks */,
@@ -205,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = "Architecture-MVP";
+			name = "Architecture-MVP-1";
 			productName = "MVP-Storyboard";
-			productReference = A2917DB927B1679B005393F2 /* Architecture-MVP.app */;
+			productReference = A2917DB927B1679B005393F2 /* Architecture-MVP-1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A2917DCE27B1679C005393F2 /* Architecture-MVPTests */ = {
+		A2917DCE27B1679C005393F2 /* Architecture-MVP-1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2917DE627B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVPTests" */;
+			buildConfigurationList = A2917DE627B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVP-1Tests" */;
 			buildPhases = (
 				A2917DCB27B1679C005393F2 /* Sources */,
 				A2917DCC27B1679C005393F2 /* Frameworks */,
@@ -223,14 +223,14 @@
 			dependencies = (
 				A2917DD127B1679C005393F2 /* PBXTargetDependency */,
 			);
-			name = "Architecture-MVPTests";
+			name = "Architecture-MVP-1Tests";
 			productName = "MVP-StoryboardTests";
-			productReference = A2917DCF27B1679C005393F2 /* Architecture-MVPTests.xctest */;
+			productReference = A2917DCF27B1679C005393F2 /* Architecture-MVP-1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A2917DD827B1679C005393F2 /* Architecture-MVPUITests */ = {
+		A2917DD827B1679C005393F2 /* Architecture-MVP-1UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2917DE927B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVPUITests" */;
+			buildConfigurationList = A2917DE927B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVP-1UITests" */;
 			buildPhases = (
 				A2917DD527B1679C005393F2 /* Sources */,
 				A2917DD627B1679C005393F2 /* Frameworks */,
@@ -241,9 +241,9 @@
 			dependencies = (
 				A2917DDB27B1679C005393F2 /* PBXTargetDependency */,
 			);
-			name = "Architecture-MVPUITests";
+			name = "Architecture-MVP-1UITests";
 			productName = "MVP-StoryboardUITests";
-			productReference = A2917DD927B1679C005393F2 /* Architecture-MVPUITests.xctest */;
+			productReference = A2917DD927B1679C005393F2 /* Architecture-MVP-1UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -269,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2917DB427B1679B005393F2 /* Build configuration list for PBXProject "Architecture-MVP" */;
+			buildConfigurationList = A2917DB427B1679B005393F2 /* Build configuration list for PBXProject "Architecture-MVP-1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -282,9 +282,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2917DB827B1679B005393F2 /* Architecture-MVP */,
-				A2917DCE27B1679C005393F2 /* Architecture-MVPTests */,
-				A2917DD827B1679C005393F2 /* Architecture-MVPUITests */,
+				A2917DB827B1679B005393F2 /* Architecture-MVP-1 */,
+				A2917DCE27B1679C005393F2 /* Architecture-MVP-1Tests */,
+				A2917DD827B1679C005393F2 /* Architecture-MVP-1UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -335,7 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2917DD427B1679C005393F2 /* Architecture_MVPTests.swift in Sources */,
+				A2917DD427B1679C005393F2 /* Architecture_MVP_1Tests.swift in Sources */,
 				A295C5C827B27FE80060C1A4 /* MainPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,8 +344,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2917DDE27B1679C005393F2 /* Architecture_MVPUITests.swift in Sources */,
-				A2917DE027B1679C005393F2 /* Architecture_MVPTestsLaunchTests.swift in Sources */,
+				A2917DDE27B1679C005393F2 /* Architecture_MVP_1UITests.swift in Sources */,
+				A2917DE027B1679C005393F2 /* Architecture_MVP_1TestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,12 +354,12 @@
 /* Begin PBXTargetDependency section */
 		A2917DD127B1679C005393F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2917DB827B1679B005393F2 /* Architecture-MVP */;
+			target = A2917DB827B1679B005393F2 /* Architecture-MVP-1 */;
 			targetProxy = A2917DD027B1679C005393F2 /* PBXContainerItemProxy */;
 		};
 		A2917DDB27B1679C005393F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2917DB827B1679B005393F2 /* Architecture-MVP */;
+			target = A2917DB827B1679B005393F2 /* Architecture-MVP-1 */;
 			targetProxy = A2917DDA27B1679C005393F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -509,7 +509,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Architecture-MVP/Info.plist";
+				INFOPLIST_FILE = "Architecture-MVP-1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -520,7 +520,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -537,7 +537,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Architecture-MVP/Info.plist";
+				INFOPLIST_FILE = "Architecture-MVP-1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -548,7 +548,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -567,12 +567,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVPTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Architecture-MVP.app/Architecture-MVP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Architecture-MVP-1.app/Architecture-MVP-1";
 			};
 			name = Debug;
 		};
@@ -587,12 +587,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVPTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Architecture-MVP.app/Architecture-MVP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Architecture-MVP-1.app/Architecture-MVP-1";
 			};
 			name = Release;
 		};
@@ -605,12 +605,12 @@
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVPUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Architecture-MVP";
+				TEST_TARGET_NAME = "Architecture-MVP-1";
 			};
 			name = Debug;
 		};
@@ -623,19 +623,19 @@
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVPUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Architecture-MVP";
+				TEST_TARGET_NAME = "Architecture-MVP-1";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2917DB427B1679B005393F2 /* Build configuration list for PBXProject "Architecture-MVP" */ = {
+		A2917DB427B1679B005393F2 /* Build configuration list for PBXProject "Architecture-MVP-1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2917DE127B1679C005393F2 /* Debug */,
@@ -644,7 +644,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2917DE327B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVP" */ = {
+		A2917DE327B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVP-1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2917DE427B1679C005393F2 /* Debug */,
@@ -653,7 +653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2917DE627B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVPTests" */ = {
+		A2917DE627B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVP-1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2917DE727B1679C005393F2 /* Debug */,
@@ -662,7 +662,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2917DE927B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVPUITests" */ = {
+		A2917DE927B1679C005393F2 /* Build configuration list for PBXNativeTarget "Architecture-MVP-1UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2917DEA27B1679C005393F2 /* Debug */,

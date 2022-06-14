@@ -1,6 +1,6 @@
 //
-//  Architecture_MVPTests.swift
-//  Architecture-MVPTests
+//  Architecture_MVP_1Tests.swift
+//  Architecture-MVP-1Tests
 //
 //  Created by Ruslan on 07.02.2022.
 //
@@ -8,7 +8,7 @@
 import XCTest
 @testable import Architecture_MVP
 
-class Architecture_MVPTests: XCTestCase {
+class Architecture_MVP_1Tests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

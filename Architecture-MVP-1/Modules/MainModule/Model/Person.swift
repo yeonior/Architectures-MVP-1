@@ -1,6 +1,6 @@
 //
 //  Person.swift
-//  Architecture-MVP
+//  Architecture-MVP-1
 //
 //  Created by Ruslan on 07.02.2022.
 //

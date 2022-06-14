@@ -1,13 +1,13 @@
 //
-//  Architecture_MVPTestsLaunchTests.swift
-//  Architecture-MVPUITests
+//  Architecture_MVP_1TestsLaunchTests.swift
+//  Architecture-MVP-1UITests
 //
 //  Created by Ruslan on 07.02.2022.
 //
 
 import XCTest
 
-class Architecture_MVPTestsLaunchTests: XCTestCase {
+class Architecture_MVP_1TestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
